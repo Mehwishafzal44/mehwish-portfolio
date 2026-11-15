@@ -1,0 +1,163 @@
+/* Main stylesheet for Mehwish's portfolio */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    background-color: #fff9fc;
+}
+
+.custom-nav {
+    background-color: #51243f;
+}
+
+.navbar .nav-link {
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #ffc5df;
+}
+
+.hero-section {
+    padding: 75px 15px;
+    color: white;
+    background: linear-gradient(135deg, #51243f, #9b597d);
+}
+
+.hero-section h1 {
+    margin-top: 18px;
+    font-weight: 700;
+}
+
+.profile-img {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.section-space {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.section-title {
+    margin-bottom: 28px;
+    text-align: center;
+    color: #6f3158;
+    font-weight: 700;
+}
+
+.portfolio-card {
+    border: 1px solid #ead5e1;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(81, 36, 63, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(81, 36, 63, 0.16);
+}
+
+.about-img {
+    max-width: 260px;
+    border: 6px solid #f0dce7;
+}
+
+.custom-btn {
+    color: white;
+    background-color: #6f3158;
+    border: none;
+}
+
+.custom-btn:hover {
+    color: white;
+    background-color: #51243f;
+}
+
+.site-footer {
+    padding: 20px;
+    color: white;
+    background-color: #51243f;
+}
+
+#welcome {
+    min-height: 360px;
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 55px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-space {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+/* Contact Page Styling */
+
+.contact-info {
+    padding: 25px;
+}
+
+.contact-info h2 {
+    color: #6f3158;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.contact-info p {
+    color: #25152b;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.contact-info .social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-info .social-links a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #8b258f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.contact-info .social-links a:hover {
+    background: #6f3158;
+    transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        padding: 15px;
+    }
+}
