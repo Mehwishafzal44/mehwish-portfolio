@@ -156,6 +156,42 @@ body {
     transform: translateY(-4px);
 }
 
+/* Learning Journey Carousel */
+.journey-slide {
+    min-height: 300px;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.journey-slide h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.journey-slide p {
+    font-size: 17px;
+}
+
+.slide-one {
+    background: linear-gradient(135deg, #542044, #9b597d);
+}
+
+.slide-two {
+    background: linear-gradient(135deg, #6f3158, #c080a0);
+}
+
+.slide-three {
+    background: linear-gradient(135deg, #542044, #78385f);
+}
+
+
 @media (max-width: 768px) {
     .contact-info {
         padding: 15px;
